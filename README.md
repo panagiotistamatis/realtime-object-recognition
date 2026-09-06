@@ -2,8 +2,9 @@
 
 Real-time object recognition with a from-scratch PyTorch CNN, running live on a webcam.
 
-![demo](assets/demo.gif)
-<!-- TODO: record webcam demo GIF -->
+![Real-time webcam recognition of a keyboard, confidence 0.98](assets/demo_keyboard.png)
+
+*Live webcam recognition: the model classifies the object inside the center box and shows the label, confidence, and a running FPS counter in real time.*
 
 ## What it is
 
@@ -15,6 +16,8 @@ webcam demo. The model is trained on a subset of CIFAR-100 and reaches
 The webcam demo classifies a center region of interest (ROI) on every frame and
 shows the top-3 predictions with confidence-based colors, temporal smoothing
 over the last few frames to stabilize the label, and a live FPS counter.
+
+![Real-time webcam recognition of a plate](assets/demo_plate.png)
 
 ### Classes
 
