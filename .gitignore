@@ -1,0 +1,31 @@
+# Datasets (CIFAR-100 auto-downloads via torchvision)
+data/
+
+# Model weights (distributed via Releases)
+*.pth
+
+# Generated plots at repo root (committed copies live in assets/)
+/training_curves.png
+/confusion_matrix.png
+
+# Webcam demo outputs
+webcam_snapshots/
+prediction_samples/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
